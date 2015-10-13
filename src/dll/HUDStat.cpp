@@ -93,7 +93,7 @@ std::string HUDStat::NumToStr(float number, bool percentage)
     else
     {
         ss.setf(std::ios::fixed, std::ios::floatfield);
-        ss.precision(1);
+        ss.precision(2);
         ss << number;
     }
 
